@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="file:///C:/Users/USER/Downloads/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="file:///C:/Users/USER/Documents/OIC%20WORKS/ASSIGNMENTS/RESTAURANT/index.css">
+</head>
+
+<body>
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="navbar-img" style="width: 70px;">
+                    <img src="restaurant-1724294_640.png" width="70px" alt="">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="features-and-team.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="features-and-team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservations.html">Reservations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">blog</a>
+                    </li>
+
+                </ul>
+                <a href="reservations.html" class="btn btn-brand">Order Online</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero Slider-->
+    <div id="carouselExampleControls Home" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item text-center vh-100 active slide-1">
+                <img src="food11.jpg" alt="food21" class="d-block w-100">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center ">
+
+                        <div class="col-lg-8 carousel-caption d-none d-md-block">
+                            <h6 class="text-white">WELCOME TO MY RESTAURANT</h6>
+                            <h1 class="display-1 text-white fw-bold">freshly cooked and grilled</h1>
+                            <a href="reservations.html" class="btn btn-brand">Book Space</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item text-center vh-100 slide-2">
+                <img src="food9.jpg" alt="food22" class="d-block w-100">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 carousel-caption d-none d-md-block">
+                            <h6 class="text-white">WELCOME TO MY RESTAURANT</h6>
+                            <h1 class="display-1 text-white fw-bold"> Cooked with the safest touch </h1>
+                            <a href="reservations.html" class="btn btn-brand">Book Space</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon  " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon h" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!--Menu-->
+    <section id="menu" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Explore Our Menu</h1>
+                    <p class="my-3 mx-auto">Piquant & Sensuous,Broiled Miso Marinated Black Cod $24,Bamboo Box Steamed
+                        Lemon Sole $28,Pan Seared Tasmanian Salmon $24</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <ul class="nav nav-pills mb-5 bg-white justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+                        type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-breakfast-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast"
+                        aria-selected="true">Breakfast</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch"
+                        type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Lunch</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner"
+                        type="button" role="tab" aria-controls="pills-dinner" aria-selected="true">Dinner</button>
+                </li>
+
+
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+
+                    <div class="row p-4 m-4 gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food4.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food11.jpg" alt="food4" style="width: 230px;">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food5.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food6.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food7.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food8.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food9.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food10.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade show" id="pills-breakfast" role="tabpanel"
+                    aria-labelledby="pills-breakfast-tab">
+                    <div class="row p-4 m-4 gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food4.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food11.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food5.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food10.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab">
+                    <div class="row p-4 m-4 gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food5.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food10.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food7.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white">
+                                <img src="food9.jpg" alt="food4">
+                                <div class="menu-item-content p-4"></div>
+                                <div>
+                                    <span>Rated(4.4)</span>
+                                    <span class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </span>
+                                </div>
+                                <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                <p class="small">Cooked meat are a type of food that can be obtained by cooking various
+                                    raw meat on a fire or cooking range, granting 30 experience when successful</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab">
+                    <div class="row p-4 m-4 gy-4">
+                    </div>
+                    <div class="tab-pane fade show" id="pills-dinner" role="tabpanel"
+                        aria-labelledby="pills-dinner-tab">
+                        <div class="row p-4 m-4 gy-4">
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="menu-item bg-white">
+                                    <img src="food11.jpg" alt="food4">
+                                    <div class="menu-item-content p-4"></div>
+                                    <div>
+                                        <span>Rated(4.4)</span>
+                                        <span class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                    <p class="small">Cooked meat are a type of food that can be obtained by cooking
+                                        various raw meat on a fire or cooking range, granting 30 experience when
+                                        successful</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="menu-item bg-white">
+                                    <img src="food6.jpg" alt="food4">
+                                    <div class="menu-item-content p-4"></div>
+                                    <div>
+                                        <span>Rated(4.4)</span>
+                                        <span class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                    <p class="small">Cooked meat are a type of food that can be obtained by cooking
+                                        various raw meat on a fire or cooking range, granting 30 experience when
+                                        successful.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="menu-item bg-white">
+                                    <img src="food8.jpg" alt="food4">
+                                    <div class="menu-item-content p-4"></div>
+                                    <div>
+                                        <span>Rated(4.4)</span>
+                                        <span class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                    <p class="small">Cooked meat are a type of food that can be obtained by cooking
+                                        various raw meat on a fire or cooking range, granting 30 experience when
+                                        successful</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="menu-item bg-white">
+                                    <img src="food10.jpg" alt="food4">
+                                    <div class="menu-item-content p-4"></div>
+                                    <div>
+                                        <span>Rated(4.4)</span>
+                                        <span class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2">FRESH COOKED ASSORTED</h5>
+                                    <p class="small">Cooked meat are a type of food that can be obtained by cooking
+                                        various raw meat on a fire or cooking range, granting 30 experience when
+                                        successful</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+    </section>
+
+
+
+    <!--Footer-->
+
+    <footer class="my-4">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footerlogo-img" style="width: 80px;">
+                            <img src="restaurant-1724294_640.png" class="mb-4" width="100px" alt="">
+                        </div>
+                        <p class="text-white">make sure to reach out to us, we promise to give the best service you will
+                            ever come across</p>
+                        <div class="social-links text-white">
+                            <a href="#"><i class="fab fa-facebook text-white"></i></a>
+                            <a href="#"><i class="fab fa-instagram text-white"></i></a>
+                            <a href="#"><i class="fab fa-youtube text-white"></i></a>
+                            <a href="#"><i class="fab fa-google text-white"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ms-auto">
+                        <h6 class="text-white mb-4">CONTACT</h6>
+                        <p class="mb-1 text-white">Tel:08087101416</p>
+                        <p class="mb-1 text-white">medsabdulgbenga@gmail.com</p>
+                        <p class="mb-0 text-white">Oic-Hub, Orita-sabo Wickinburg Osun-state Nigeria</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6 class="text-white mb-4">OPENING HOURS</h6>
+                        <p class="mb-1 text-white">Monday-Friday : 08:00 - 22:00</p>
+                        <p class="text-white">Saturday-Sunday : 09:00 - 21:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

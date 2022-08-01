@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+body{
+    font-family: sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    color: #222;
+}
+a {
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+a:hover {
+    color: orange;
+}
+img{
+    width: 100%;
+}
+.navbar-img{
+    min-width: 100%;
+}
+.biggs{
+    width: 50%;
+    height: 600px;
+}
+.btn{
+    border-radius: 0;
+    padding: 14px 38px;
+}
+.btn-brand {
+    color: white;
+    font-weight: 500;
+    border-color: orange;
+    background-color: orange;
+}
+.btn-brand:hover {
+    border-color: beige;
+    background-color: beige;
+    color: white;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: black;
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+#about .divider{
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: orange;
+}
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.menu-item .stars{
+    color: orange;
+}
+#features {
+    background-image: url('food14.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.feature{
+    border: 2px solid 
+}
+.feature .feature-icon{
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    color: white;
+    font-size: 28px;
+    display: inline-grid;
+    text-align: center;
+}
+.team-member img{
+    max-width: 140px;
+}
+#reviews {
+    background-image: url('food15.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;   
+}
+.review img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+.review .quote-icon{
+    font-size: 74px;
+    color: orange;
+    line-height: 1;
+}
+.review .stars{
+    color: orange;
+}
+#reviews .carousel-indicators{
+    margin-bottom: -3rem;
+}
+#reservation .form-control{
+    border-radius: 0;
+}
+.blog-post img{
+    width: 30%;
+    object-fit: cover;
+}
+@media (max-width: 768px) {
+    .blog-post{
+        flex-direction: column;
+    }
+    .blog-post img{
+        width: 100%;
+    }
+}
+footer{
+    background-image: url('food2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px; 
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+footer a {
+    font-weight: normal;
+    font-size: 24px;
+    margin-right: 10px;
+}
